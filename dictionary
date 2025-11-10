@@ -1,0 +1,15 @@
+mahasiswa = {
+"nama": "Siti adiva kirani",
+"nim": "D0425302"
+"prodi": "Sistem Informasi"
+}
+
+#mengakses nilai pada dictionary
+print ("Nama Mahasiswa:", mahasiswa["nama"])
+
+#menambahkan data pada dictionary
+mahasiswa["angkatan"] = 2025
+
+#menampilkan semua key dan value pada dictionary
+for k, v in mahasiswa.items():
+	print(k, ":", v)
