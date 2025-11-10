@@ -1,0 +1,16 @@
+#nama: Siti Adiva Kirani
+#nim: D0425302
+#Kelas_B_Sisfo
+
+#membuat array (list) berisi nama buah-buahan
+buah = ["apel", "jeruk", "mangga", "pisang"]
+
+#menambahkan elemen ke array
+buah.append("semangka")
+
+#mengakses elemen array
+print("buah pertama:", buah[0])
+
+#menampilkan semua isi array
+for b in buah:
+	print(b)
